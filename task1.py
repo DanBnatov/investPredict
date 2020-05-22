@@ -1,3 +1,11 @@
+import random
+import torch
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.signal import argrelextrema
+from tqdm import tqdm_notebook as tqdm
+
+
 def generateDataset(M = 1000, T = 17, N = 1024):
 
     '''
