@@ -49,8 +49,8 @@ def setUpTensor(X, Ymin, Ymax, minibatch, sequenceLength):
 
     #Initialise the arrays of the required size
     Xmini = np.zeros([minibatch, sequenceLength])
-    Yminmini = np.zeros([minibatch, sequenceLength])
-    Ymaxmini = np.zeros([minibatch, sequenceLength])
+    Ymini = np.zeros([minibatch, sequenceLength])
+    #Ymaxmini = np.zeros([minibatch, sequenceLength])
 
     #Combine both Ymin and Ymax
     Y = combineLabel(Ymin, Ymax)
